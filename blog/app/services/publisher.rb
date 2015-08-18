@@ -22,4 +22,14 @@ class Publisher
       c.start
     end
   end
+
+  #ALTERNATE SYNTAX
+
+  # def self.client
+  #   @client ||= Bunny.new
+  # end
+
+  # def self.connection
+  #   @connection || = client.start
+  # end
 end
